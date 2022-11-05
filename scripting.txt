@@ -1,0 +1,57 @@
+Structure of p2kc file
+1st and 2nd char is the command
+3rd char is space
+
+md - make directory, followed by directory name with full path.
+rd - remove directory, followed by directory name with full path.
+cp - copy file, followed by relative source filename with path
+to - destination filename with full path
+rm - remove file,followed filename with full path
+at - attrib value   
+sa - set attributes,followed filename with full path
+ds - download seem,followed num,rec
+us - upload seem,followed filename
+ss - set seem bit,followed num,rec,offs,bit 
+rs - reset seem bit,followed num,rec,offs,bit 
+ts - toggle seem bit,followed num,rec,offs,bit
+## - external command (eg: copy, ren, cd , md or other programs....etc) 
+
+
+------------
+examples:
+
+this makes a new folder:
+md /a/mobile/skins/Exampleskin
+
+this copy a file:
+cp something.ski
+to /c/mobile/skins/something/something.ski
+
+this remove a file:
+rd /c/mobile/skins/something/something.ski
+
+this remove a folder: (before that you must delete all files)
+rm /c/mobile/skins/something
+
+setting attrib:
+at 7
+sa /c/mobile/skins/something/something.ski
+
+download a seem to file:(filename will be: 0032_0001.seem)
+ds 0032 0001
+
+uploading a seem from file:
+us 0032_0001.seem  
+
+set bit:
+ss 0032 0001 00db 2
+
+reset bit:
+rs 0032 0001 00db 2
+
+toggle bit:
+ts 0032 0001 00db 2
+
+external command:
+## notepad.exe
+

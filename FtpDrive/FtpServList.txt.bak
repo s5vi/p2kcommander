@@ -1,0 +1,18 @@
+Name=elco
+Host=ftp2.different.hu
+Port=21
+Login=wwwel-co
+Password=wwwel-co_1198
+Mode=Default
+Secure=Disable
+Encoding=WIN
+
+-
+Name=My Linux Phone
+Port=21
+Login=root
+Password=
+Mode=Default
+Secure=Disable
+Encoding=WIN
+Host=

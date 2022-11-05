@@ -1,0 +1,38 @@
+#define IDD_DLG2 1200
+#define IDC_STC7 1210
+#define IDC_BTN20 1203
+#define IDC_STC5 1205
+#define IDC_STC8 1208
+#define IDC_STC10 1209
+#define IDC_STC6 1201
+#define IDC_STC9 1204
+#define IDC_STC11 1206
+#define IDC_STC12 1207
+#define IDC_UDC2 1211
+#define IDC_UDC1 1212
+#define IDC_STC13 1213
+#define IDC_STC14 1214
+#define IDC_STC26 1202
+#define IDC_UDC3 1215
+IDD_DLG2 DIALOGEX 5,5,235,143
+CAPTION "P2kCommander"
+FONT 10,"Tahoma",400,0,238
+STYLE 0x10C01000
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "OK",IDC_BTN20,"Button",0x50014001,84,118,65,18,0x00000000
+  CONTROL "P2kCommander: a file manager for Motorola P2k phones.",IDC_STC5,"Static",0x50000201,1,3,230,9,0x00000000
+  CONTROL "Build date: 2009.05.04.",IDC_STC8,"Static",0x50000000,154,127,77,8,0x00000000
+  CONTROL "Vilko,  anton@tbg.ru ( assembly P2K routines )",IDC_STC10,"Static",0x50000000,51,31,154,8,0x00000000
+  CONTROL "Iczelion,  Iczelion@win32asm.cjb.net    KetilO,  radasm@visualassembler.com  Hutch,  hutch@movsd.com         Christian,  support@ghisler.com   Netuddki,  johnnybravo@hawaii.zzn.com",IDC_STC7,"Static",0x50000000,51,40,136,41,0x00000000
+  CONTROL "s5vi,  s5vi@freemail.hu",IDC_STC6,"Static",0x50000000,51,19,22,8,0x00000000
+  CONTROL "Author:",IDC_STC9,"Static",0x50000000,6,19,31,8,0x00000000
+  CONTROL "Credits:",IDC_STC11,"Static",0x50000000,6,31,31,8,0x00000000
+  CONTROL "Homepage:",IDC_STC12,"Static",0x50000000,6,91,43,8,0x00000000
+  CONTROL "",IDC_UDC2,"UDC_HyperLink",0x50000000,51,91,102,8,0x00000000
+  CONTROL "",IDC_UDC1,"UDC_HyperLink",0x50000000,77,19,106,8,0x00000000
+  CONTROL "Version: 6.0.0",IDC_STC13,"Static",0x50000000,6,127,74,8,0x00000000
+  CONTROL "Chris,  chris@pagefusion.com",IDC_STC14,"Static",0x50000000,51,80,154,8,0x00000000
+  CONTROL "Forum:",IDC_STC26,"Static",0x50000000,6,101,36,8,0x00000000
+  CONTROL "",IDC_UDC3,"UDC_HyperLink",0x50000000,51,101,102,8,0x00000000
+END

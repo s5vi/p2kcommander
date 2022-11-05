@@ -1,0 +1,53 @@
+/*============================================================================================
+                               Motorola Confidential Proprietary
+                        (c) Copyright Motorola 2003-2004, All Rights Reserved
+
+Revision History:
+
+Author             Date      CR Number   Revision  Major Changes
+---------------  ----------  ----------  --------  ---------------
+Kiran Julapalli  20-02-2004  LIBdd55888    Initial Creation
+Kiran Julapalli  23-06-2004  LIBee17800    Added text-align to text
+Kiran Musham     24-JUN-04   LIBee24321    Url underline
+Kiran Julapalli  21-07-2004  LIBee27404    Font size
+Vijayendra H	 04-08-2004  Version 5     CR fixes
+Subodh           04-0802004  Version 6     Images size changed to 95%
+Kiran Julapalli  31-08-2004  Version 7     Fix for small image center align
+Kiran Musham     03-28-2005  LIBff75296    Changes in Display properties of elements for DRM icon
+Ramprabhu        03-29-2005  LIBff84140    Changed Default Font Size to 8
+Kiran Musham     04-APR-2005 LIBff93756    Add mot-image-resize:squash for img node
+Kiran Musham     15-JUN-2005 LIBgg25871    a) Removed text-align property to support RTL.
+                                           b) Re-orders all rules for more readability and maintainability.
+Kiran Musham     19-JUL-2005 LIBgg48298    Revert back the fix for CR#LIBgg25871 as it is 
+                                           breaking image disply alignment funtionality.
+
+Ramprabhu        06-Aug-2005 LIBgg64414    Use mot-prewarp for white space 
+Ramprabhu        20-Jan-2006 LIBhh68809    Use condep for alignment for text.
+
+============================================================================================*/
+/* Please === D O N O T === change the order. This order is derived from 
+ * default.css located at /vobs/core_browser/code/css/src 
+ */
+
+
+*                {font-size:8pt; background-color:transparent}
+smil             {display:block; mot-canvas-element:true}
+head             {display:none}
+switch           {display:none}
+layout           {display:none}
+meta             {display:none}
+root-layout      {display:none}
+region           {display:none}
+anchor           {display:block}
+a                {display:block}
+body             {display:block; background-color:white; mot-canvas-element:true; text-align:center}
+par              {display:block}
+seq              {display:block}
+text             {display:block; white-space:mot-prewrap; text-align:condep}
+txt_child_url    {display:block; white-space:mot-prewrap; color:#000000; text-decoration:underline; text-align:condep}
+txt_child_nonurl {display:block; white-space:mot-prewrap;text-align:condep}
+textstream       {display:block; text-align:condep}
+video            {display:block}
+audio            {display:block}
+ref              {display:block}
+img              {display:block; fit:mot_smil; margin:2px; width:95%; mot-image-resize:squash}

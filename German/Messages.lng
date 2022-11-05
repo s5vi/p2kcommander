@@ -1,0 +1,217 @@
+############################################################################
+# This is file containing some German messages.
+# (edit by Mæz for faq4mobiles.de)
+# You can translate them.
+# These lines starting with "#" are ignored.
+# You can put anywhere your remarks with starting "#"
+# Its possibble to leave original line with "#" and insert your new line.
+# Please pay attention to spaces before and after strings. Eg: "  Name: "  
+############################################################################
+# P2k_Sendcommand messages (0...15)
+###########################################
+INVALID DATA LENGTH FOR COMMAND.
+INADEQUATE SECURITY LEVEL FOR COMMAND/PARAMETER.
+COMMAND/PARAMETER NOT SUPPORTED FOR CURRENT PROTOCOL.
+COMMAND NOT SUPPORTED FOR CURRENT MODE.
+UNSUPPORTED/INVALID OPCODE.
+UNSUPPORTED/INVALID PARAMETER FOR OPCODE.
+CRITICAL ERROR - ERROR CODE NOT FOUND (6).
+GENERIC FAILURE.
+CRITICAL ERROR - ERROR CODE NOT FOUND (8).
+CRITICAL ERROR - ERROR CODE NOT FOUND (9).
+COULDN""T ALLOCATE MEMORY.
+INTERNAL TASK ERROR.
+TEST COMMAND TASK TIMED OUT WAITING FOR RESPONSE.
+CDMA PARSE ERROR.
+LENGTH SPECIFIED IN COMMAND HEADER GREATER THAN RECEIVED BY TRANSPORT.
+IRRECOVERABLE ERROR; PHONE STATE HAS BEEN LOST. PHONE BEING POWERED DOWN.
+###########################################
+# GetVolInfo messages (16...23)
+###########################################
+Laufwerksinformation -->
+Nicht erkannter Laufwerksname!
+Nicht erkannte Laufwerksgröße!
+Kein freier Speicher gemeldet!
+Laufwerksnamen: 
+Freier Speicher: 
+ KBytes
+ Dateien gefunden.
+###########################################
+# P2k_Sendcommand messages (24...32)
+###########################################
+CMD: Daten schreiben fehlgeschlagen!
+CMD: Zeitüberschreitung!
+CMD: Paket ungültig!
+USB: Daten geschrieben.
+USB: Ereigniserzeugung fehlgeschlagen!
+USB: Ereignisreset fehlgeschlagen!
+USB: IO Time-out!
+USB: IO fehlgeschlagen!
+USB: Antwortgröße ungültig!
+###########################################
+# P2kApi.inc messages (33...38)
+###########################################
+Lösche Datei 
+Ungültige Dateianzahl!
+ Speicherzuordnung ungültig
+Größe der Dateiliste ungültig!
+USB P2k Gerät gefunden, Telefon verbunden !
+Kein P2k Gerät gefunden, NICHT verbunden !
+###########################################
+# P2kCommander.inc messages (39...57)
+###########################################
+P2kCommander gestartet. 
+ Dateinamen geladen in 
+ Millisekunden.
+Sprachdatei geladen.
+Dateiname
+Größe
+Bes./Attr.
+Datum/Zeit
+Uploading Links nach Rechts:
+Uploading Rechts nach Links:
+Downloading Links nach Rechts:
+Downloading Rechts nach Links:
+P2k to P2k Links to Rechts:
+P2k to P2k Rechts to Links:
+P2k Telefon Dateien
+Sicher, daß sie löschen wollen ?  -  
+Löschbestätigung
+Sicher, daß sie überschreiben wollen ?  -  
+Überschreibbestätigung
+###########################################
+#  Tooltip messages (58...72)
+###########################################
+Alt-R: Aktualisieren der Dateiliste des Laufwerks/Verzeichnis im linken Fenster.
+Alt-R: Aktualisieren der Dateiliste des Laufwerks/Verzeichnis im rechten Fenster.
+F3: Anzeigen der ausgewählten Datei.
+F4: Bearbeiten der ausgewählten Datei.
+F2: Änderung der Attribute der ausgweählten Datei.
+F5: Koieren der ausgewählten Datei(en) ins entgegengesetzte Fenster. 
+F6: Seem-Funktionen suchen und bearbeiten.
+F7: Neuen Ordner erstellen (auch auf P2K-Laufwerken!!!).
+F8/del: Löscht ausgewählte Datei oder P2K-Verzeichnis incl. allen enthaltenen Dateien!!
+F9: Telefonneustart.
+Alt-F1: Laufwerksauswahl für linkes Fenster.
+Alt-F2: Laufwerksauswahl für rechtes Fenster.
+Ereignisfenster.
+Zeigt den aktuellen Pfad.
+Fortschrittsanzeige.
+###########################################
+#  Drive names (73...76
+###########################################
+ Wechselspeicher
+ CD-ROM
+ Ramdisk
+ Netzlaufwerk
+###########################################
+#  Statusbar texts (77...80)
+###########################################
+Modell:
+LW: 
+Dateien:
+Platz:
+###########################################
+#  (81...89)
+###########################################
+Unbegrenzt
+Ausgewählte Partition ist: 
+Das kann im Optionen-Dialog geändert werden.
+n00b-Erinnerung...
+Warning setting "number of files" is NOT unlimited !!!
+Die ganze Dateiliste wird NICHT angezeigt !!!
+Diese Einstellung kann im Menü "Optionen" geändert werden.
+Danach Dateiliste "Neu lesen" lassen.
+P2kCommander Warnung:
+###########################################
+# Main dialog buttons (90...98)
+###########################################
+Neu lesen
+Betrachten
+Bearbeiten
+Attribute
+Neustart
+SeemFunc
+Kopieren
+Neuer Ordner
+Löschen
+###########################################
+# Some new messages (99...103)
+###########################################
+Suche Dateien:
+Tci command set: standard
+Tci command set: 3G fast
+Tci command set: 3G safe
+Tci command set: P2k05
+###########################################
+# p2k05 test (104...105)
+###########################################
+USB_WriteData.DevIoCtrl ok
+USB_ReadData.DevIoCtrl ok
+###########################################
+# Tooltip in Options dialog (106...114)
+###########################################
+E398, V3, Vxxx
+RIZR Z3, E1000, V975
+A1000, V980
+V3xx, V6MAXX, E2
+Experimentell (Funktion konnte mit diesem Telefon/en nicht getestet werden).
+Telefonstatus-Icon in der Tray-Leiste.
+Bitte aktivieren (mindestens 1 Mal die Woche).
+Erfahrene Benutzer können dies abwählen.
+Ausfühhrlichen USB-Datentransfer ins Log schreiben.
+###########################################
+# Extras (115...122)
+###########################################
+P2k Telefon Seems
+/a P2k Telefon System
+/b P2k Telefon T-Flash
+/c P2k Telefon user
+/e P2k Telefon user
+/g P2k Telefon extra
+Leerer Platz
+/x Manuell gewählt
+###########################################
+# Extras (123...131)
+###########################################
+Upload seem: fehlgeschlagen.
+P2k Cmd fehlgeschlagen.
+Durchsuche Seem-Nummern.
+Seem Bezeichnung
+Seem
+Rec.
+Offs
+Bit
+Beschreibung
+###########################################
+# Extras (132...)
+###########################################
+Seem-Funktion nach Schlüsselwort durchsuchen.
+Seem-Bit auf Telefon schreiben.
+Schließen.
+###########################################
+# About dialog (...)
+###########################################
+###########################################
+# Attrib dialog (...)
+###########################################
+###########################################
+# Wait dialog (...)
+###########################################
+###########################################
+# Copy dialog (...)
+###########################################
+###########################################
+# Create dir dialog (...)
+###########################################
+###########################################
+# Batch dialog (...)
+###########################################
+###########################################
+# Menus (...)
+###########################################
+
+
+
+
+

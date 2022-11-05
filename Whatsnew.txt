@@ -1,0 +1,66 @@
+P2kAutostart fully integrated.
+If selected, it registers itseft into registry. and next boot starts automatically.
+If Autorun P2kCommander and autoswitch to p2kmode selected there is a maximum comfort.
+If you plug your phone, P2kCommander starts and switch to p2kmode immedialtely.
+------
+New P2kAutostart: restart,flashmode,start skinner4moto, recognize phone model
+------
+New P2kCommander: p2kc file executes attrib command.
+p2kc commands: see faqxxx.txt file in p2kc_batch_example folder
+------
+3.2.4 and 3.2.5 was very buggy. Fixed w2k bugs also.
+
+Start to make multithreading.
+More multithreading. You can close wait window, and browse filesystem while loading filenames!
+
+3.3.0  can read /e partition
+
+3.3.1 file filters
+3.3.2 remember window size,pos,drives,filter
+3.3.3 set COM port manually
+3.3.4 Remember folders. Separated messages file, Attributes can be entered as hex number (experts only!)
+3.3.5 FileFilter filecount fix
+4.0.0 p2k05 usb packet log and interfaceindex introduced
+			RIZR Z3 and L7e are works now
+4.1.1 0 files found bug fixed
+			new p2kautostart
+			compatible with new 2.6.2 drivers
+			Seem manager
+4.1.2 w2k bug fixed, before upload you can change destination path
+4.1.3 w2k bug fixed when drivelist items >10 
+-------
+4.9.0 p2k05 is starting, can read phone model/status
+4.9.1 getting filelist, read files/seems
+4.9.2 write files !!!!
+4.9.3 new volume selector and log window, gui polished
+4.9.4 manual volume setting, view on p2k drive 
+4.9.5 suspend bug fixed
+4.9.6 p2k05 autodetect
+4.9.7 new seem manager
+4.9.8 w2k fixes,seem preview with xwi32
+4.9.9 if you save data in xvi32 will upload seem data
+	seem bit function scriptable see scripting.txt
+4.9.A seem and file editing on-the-fly with xvi32
+	after saving data p2kc will upload it.
+	scripting: download seems
+	smartrefresh bug fixed
+	can handle new fs with V3xx /e
+4.9.B searchable seem functions (F6)
+4.9.C Uptodate seem bit tables
+4.9.D Vista comp. Can copy multiple seem folders at once.
+4.9.E Favourite folders, bugfix: port above COM10, volumes if only /a present
+4.9.F USBLAN with ftp or samba
+4.9.G V3re root files visible
+
+5.0.0 P2k over USBLAN
+5.0.1 P2k over USBLAN , Can read files...force feedback :-)
+5.0.2 P2k over USBLAN , Can read/write files
+5.0.3 P2k over USBLAN , Can download hidden files
+5.0.4 P2k over USBLAN , Can create/delete folder
+5.0.5 P2k over USBLAN , Can use filefilter
+5.0.6 P2k over USBLAN , Show more files if you specify proper filefilter 
+eg:/usr/data_resource/* or /mmc/mmc1/*		now E8 compatible	
+5.0.7 P2k over USBLAN Has new partition select dropdown box (for Juix)
+5.0.8 new logging code, autodetect if mode and phone differ (p2k vs usblan)
+5.1.0 updated scripting (.p2kc files) backup/restore user files. See Backup folder
+At least, recursively copy folders and containing files

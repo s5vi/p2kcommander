@@ -1,0 +1,17 @@
+#include "Res/P2kCommanderMnu.rc"
+#include "Res/P2kCommanderDlg.rc"
+#include "Res/P2kCommanderRes.rc"
+#include "Res/P2kCommanderAcl.rc"
+#include "Res/f7Dlg.rc"
+#include "Res/AboutDlg.rc"
+#include "Res/f5Dlg.rc"
+#include "Res/AttrDlg.rc"
+#include "Res/OptionsDlg.rc"
+#include "Res/batchDlg.rc"
+#include "Res/WaitDlg.rc"
+#include "Res/SeemDlg.rc"
+#include "Res/usbdebugDlg.rc"
+#include "Res/seemfuncDlg.rc"
+#include "Res/seemfubcMnu.rc"
+
+

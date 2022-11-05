@@ -1,0 +1,9 @@
+.md /a/mobile/skins/Exampleskin
+.cp p2kc_batch_example\faqxxx.txt
+.to /a/mobile/skins/Exampleskin/faq.txt
+.cp p2kc_batch_example\s5vixxx.gif
+.to /a/mobile/picture/s5vi.gif
+.at 7
+.sa /a/mobile/skins/Exampleskin/faq.txt
+at 7
+sa /a/mobile/picture/s5vi.gif

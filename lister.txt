@@ -1,0 +1,27 @@
+Lister is a standalone viewer for text, binary, hex, html and unicode files.
+It can also display bitmaps and multimedia, and other bitmap formats through
+Irfanview as a filter.
+
+Usage:
+
+lister.exe [Parameters] [filename]
+
+Parameters:
+/A                Use ANSI font
+/S                Use ASCII (DOS) font
+/V                Use variable font
+/T1               Display as plain text
+/T2               Display as binary 
+/T3               Display as hex
+/T4               Display as multimedia
+/T5               Display as html-text
+/T6               Display as unicode
+/T7               Display as UTF8 (8bit multibyte Unicode)
+/I=ini_file name  Set different name of INI file, default is wincmd.ini
+
+This software is copyrighted Freeware.
+Copyright © 1992-2002 by Christian Ghisler, C. Ghisler & Co. All Rights Reserved.
+
+
+Changelog:
+02.12.01   Added scroll wheel support

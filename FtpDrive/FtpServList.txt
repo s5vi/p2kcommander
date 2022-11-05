@@ -1,0 +1,8 @@
+Name=My Linux Phone
+Port=21
+Login=root
+Password=
+Mode=Default
+Secure=Disable
+Encoding=WIN
+Host=169.254.142.2

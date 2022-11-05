@@ -1,0 +1,187 @@
+############################################################################
+# This is file containing all English messages.
+# You can translate them.
+# These lines starting with "#" are ignored.
+# You can put anywhere your remarks with starting "#"
+# Its possibble to leave original line with "#" and insert your new line.
+# Please pay attention to spaces before and after strings. Eg: "  Name: "  
+############################################################################
+# P2k_Sendcommand messages (0...15)
+###########################################
+ÉRVÉNYTELEN PARANCS ADAT HOSSZ.
+NEM MEGFELELÕ PARANC/PARAMÉTER BIZTONSÁGI SZINT.
+AZ AKTUÁLIS PROTOKOLON NEM TÁMOGATOTT PARANCS/PARAMÉTER.
+A PARANCS NINCS HASZNÁLHATÓ AZ AKTUÁLIS MÓDBAN.
+NEM TÁMOGATOTT/ÉRVÉNYTELEN OPCODE.
+NEM TÁMOGATOTT/ÉRVÉNYTELEN OPCODE-PARAMÉTER.
+KRITIKUS HIBA - HIBAKÓD NEM TALÁLHATÓ (6).
+ÁLTALÁNOS HIBA.
+KRITIKUS HIBA - HIBAKÓD NEM TALÁLHATÓ (8).
+KRITIKUS HIBA - HIBAKÓD NEM TALÁLHATÓ (9).
+MEMÓRIA NEM FOGLALHATÓ LE.
+BELSÕ FELADAT HIBA.
+TESZT FELADAT IDÕTÚLLÉPÉS - VÁLASZRA VÁROK.
+CDMA FORDÍTÁSI HIBA.
+PARANCS FEJLÉCBEN MEGHATÁROZOTT HOSSZ NAGYOBB MINT AMIT AZ ÁTVITELKOR KAPTUNK.
+VISSZAFORDÍTHATATLAN HIBA; TELEFON ÁLLAPOTAJELLEMZÕI ELVESZTEK. TELEFONT KIKAPCSOLJUK.
+###########################################
+# GetVolInfo messages (16...23)
+###########################################
+Meghajtó információ -->
+Meghajtónév hiba!
+Meghajtó méret hiba!
+Nincs szabad hely!
+  Név: 
+Szabad hely: 
+ KByte
+ db fájl.
+###########################################
+# P2k_Sendcommand messages (24...32)
+###########################################
+CMD: Adat írás meghiúsult!
+CMD: Válasz idõtúllépés!
+CMD: Válasz csomaghiba!
+USB: Adat írás sikeresen befejezõdött.
+USB: Létrehozás meghiúsult!
+USB: Reset meghiúsult!
+USB: IO idõtúllépés!
+USB: IO hiba!
+USB: Válasz hossza érvénytelen!
+###########################################
+# P2kApi.inc messages (33...38)
+###########################################
+Fájl törlése 
+Érvénytelen fájl darabszám!
+ Memória foglalási hiba
+Fájllista mérete érvénytelen!
+Usb p2k eszköz felismerve, kapcsolódás sikeres !
+P2k eszköz nem található, NINCS kapcsolat !
+###########################################
+# P2kCommander.inc messages (39...57)
+###########################################
+P2kCommander elindult. 
+ db fájlnév betöltése 
+ ezredmp alatt.
+Üzenetfájl betöltve.
+Fájlnév
+Méret
+Tul/Attr
+Dátum/Idõ
+Feltöltés balról jobbra:
+Feltöltés jobbról balra:
+Letöltés balról jobbra:
+Letöltés jobbról balra:
+p2k - p2k balról jobbra:
+p2k - p2k jobbról balra:
+P2k mobiltelefon
+Valóban törölni kívánja ?  -  
+Törlés megerõsítése
+Valóban felül kívánja írni ?  -  
+Felülírás megerõsítése
+###########################################
+#  Tooltip messages (58...72)
+###########################################
+Alt-R: Fájlok újraolvasása a kiválasztott meghajtóról a bal panelba.
+Alt-R: Fájlok újraolvasása a kiválasztott meghajtóról a jobb panelba.
+F3: Kijelölt fájl megtekintése Listerrel vagy jegyzettömbbel.
+F4: Kijelölt fájl szerkesztése jegyzettömbbel.
+F2: Kijelölt fájl attribútumainak megváltoztatása.
+F5: Kijelölt fájl másolása a másik panelen aktív könyvtárba. 
+F6: Másolás a forrás törlésével.
+F7: Új könyvtár létrehozása akár a p2k meghajtón is!!!
+F8/del: Kijelölt fájl törlése, vagy a P2K könyvtár törlése annak tartalmával együtt!!
+F9: Telefon újraindítása.
+Alt-F1: Meghajtó betûjelének kiválasztása a bal panelen.
+Alt-F2: Meghajtó betûjelének kiválasztása a jobb panelen.
+Log ablak, információ a mûködésrõl.
+Az aktuális útvonal.
+Fájllista betöltésének folyamatjelzõje.
+###########################################
+#  Drive names (73...76
+###########################################
+ Eltávolítható leez
+ CD-ROM
+ Ramdisk
+ Hálózati meghatjó
+###########################################
+#  Statusbar texts (77...80)
+###########################################
+Model:
+Megh: 
+Fájlok:
+Szabad:
+###########################################
+#  (81...89)
+###########################################
+Korlátlan
+Kiválasztott meghajtó: 
+Ez módosítható az opcióknál.			
+n00b emlékeztetõ...
+Figyelem a "fájlok száma" beállítás nem korlátlan!!!
+Nem jelenik meg az összes fajl !!!
+Ez a beállítás módosítható az opcióknál.
+Ez után hajtson végre egy "újraolvasást".
+P2kCommander figyelmeztetés:
+###########################################
+# Main dialog buttons (90...98)
+###########################################
+Újraolvas
+Megnéz
+Szerk
+Attribútumok
+Újraindít
+Mozgat
+Másol
+ÚjKönyvtár
+Töröl
+###########################################
+# Some new messages (99...)
+###########################################
+Fájlok keresése:
+Tci parancs beállítás: standard
+Tci parancs beállítás: 3G gyors
+Tci parancs beállítás: 3G biztonságos
+Tci parancs beállítás: P2k05
+###########################################
+# p2k05 test (104...105)
+###########################################
+USB_WriteData.DevIoCtrl ok
+USB_ReadData.DevIoCtrl ok
+###########################################
+# Tooltip in Options dialog (106...114)
+###########################################
+E398, V3, Vxxx
+RIZR Z3, E1000, V975
+A1000, V980
+V3xx, V6MAXX, E2
+Kísérleti, nem tudom kitalálni (a telefon nélkül).
+Kis ikon a tálcán a telefon státuszának ellenõrzéséhez.
+Kérjük ellenõrizze (legalább hetente egyszer).
+Tapasztalt felhasználók kikapcsolhatják.
+Részletes USB forgalom rögzítése a logban.
+###########################################
+# About dialog (...)
+###########################################
+###########################################
+# Attrib dialog (...)
+###########################################
+###########################################
+# Wait dialog (...)
+###########################################
+###########################################
+# Copy dialog (...)
+###########################################
+###########################################
+# Create dir dialog (...)
+###########################################
+###########################################
+# Batch dialog (...)
+###########################################
+###########################################
+# Menus (...)
+###########################################
+
+
+
+
+

@@ -1,0 +1,122 @@
+
+/*====================================================================================================
+                               Motorola Confidential Proprietary
+                        (c) Copyright Motorola 1999-2003, All Rights Reserved
+  
+
+Revision History:
+                         Modification
+Author                       Date        CR Number     Revision    Major Changes
+----------------------   ------------   ------------   --------   ---------------
+a4707c                   31-10-2003     CSSmi06460                 Initial Draft
+a4707c                   10-12-2003     CSSmi06655                 White Patch Fix
+a19035                   26-04-2004     LIBdd91263                 OMA DRM - 10149 Feature implementation
+a4652c                   04-08-2004     Version 5                  CR fixes
+a16902                   04-08-2004     Version 6                  Images size changed to 95%
+a19035                   23-08-2004     LIBff05851                 DRM files not getting highlighted.
+a19035                   23-12-2004     LIBff48204                 Body was transparent for Letter Message changed to White
+a21185                   29-03-2005                                Changed Default Font Size to 8 
+Kiran Musham             16-MAY-2005    LIBff42979                 Added rule for horizontal line support.  
+====================================================================================================*/
+
+msgv_text    {display: inline; background-color: transparent; white-space: mot-prewrap} 
+msgv_telno   {display: inline; background-color: transparent}  
+msgv_telno:focus   {background-color: #0f47ff; color: #ffffff; text-decoration: underline}
+msgv_url     {display: inline; background-color: transparent}  
+msgv_url:focus   {background-color: #0f47ff; color: #ffffff; text-decoration: underline}
+msgv_email   {display: inline; background-color: transparent} 
+msgv_email:focus   {background-color: #0f47ff; color: #ffffff; text-decoration: underline}
+msgv_br:before {content: "\A"}  
+msgv_hr {border-style: solid; border-width: 1px; border-color: #777777; margin-top: 2px; margin-bottom: 2px; margin-left: auto; margin-right: auto; display: block; } 
+msgv_img    {display: inline; background-color: transparent; margin:5px 5px 5px 5px; fit:mot_smil;width:95%;mot-image-resize:squash} 
+msgv_img:focus  {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_audio   {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_audio:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_video   {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_video:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_smil    {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_smil:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_vcard {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_vcard:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_vcal {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_vcal:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_del_ins_obj {display:none; background-color: transparent}
+msgv_img_unknown {display: inline; background-color: transparent;mot-image-resize:squash} 
+msgv_img_unknown:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_drm {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_drm:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_drm_dcf {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_drm_dcf:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_audio_drm {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_audio_drm:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_audio_drm_dcf {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_audio_drm_dcf:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_video_drm {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_video_drm:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_video_drm_dcf {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_video_drm_dcf:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_vcard_drm {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_vcard_drm:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_vcard_drm_dcf {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_vcard_drm_dcf:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_unknown_drm {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_unknown_drm:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_img_unknown_drm_dcf {display: inline; background-color: transparent; margin:5px 5px 5px 5px; mot-image-resize:squash} 
+msgv_img_unknown_drm_dcf:focus {outline-style: solid; outline-width: 2px; outline-color: #0f47ff;mot-image-resize:squash}
+msgv_att_text  {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_text:before {content: url("file://mms_att_txt.gif")}
+msgv_att_text:focus {display:block; outline-style: solid; outline-width: 1px; outline-color: #0f47ff; background-color: #0f47ff; color: #ffffff}
+msgv_att_audio {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_audio:before {content: url("file://mms_att_audio.gif")}
+msgv_att_audio:focus  {background-color: #0f47ff; color: #ffffff}
+msgv_att_audio:focus {display:block; outline-style: solid; outline-width: 1px; outline-color: #0f47ff; background-color: #0f47ff; color: #ffffff}
+msgv_att_video {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_video:before {content: url("file://mms_att_video.gif")}
+msgv_att_video:focus {display:block; outline-style: solid; outline-width: 1px; outline-color: #0f47ff; background-color: #0f47ff; color: #ffffff}
+msgv_att_image {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_image:before {content: url("file://mms_att_image.gif")}
+msgv_att_image:focus {display:block; outline-style: solid; outline-width: 1px; outline-color: #0f47ff; background-color: #0f47ff; color: #ffffff}
+msgv_att_vcard {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_vcard:before {content: url("file://mms_att_vcard.gif ")}
+msgv_att_vcard:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_vcal  {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_vcal:before {content: url("file://mms_att_vcal.gif ")}
+msgv_att_vcal:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_unsup {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_unsup:before {content: url("file://mms_att_unsup.gif")}
+msgv_att_unsup:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_deleted {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_deleted:before {content: url("file://requested.gif")}
+msgv_att_deleted:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_image_drm {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_image_drm:before {content: url("file://mms_att_img_drm.gif ")}
+msgv_att_image_drm:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_image_drm_dcf {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_image_drm_dcf:before {content: url("file://mms_att_img_drm_dcf.gif ")}
+msgv_att_image_drm_dcf:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_audio_drm {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_audio_drm:before {content: url("file://mms_att_audio_drm.gif ")}
+msgv_att_audio_drm:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_audio_drm_dcf {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_audio_drm_dcf:before {content: url("file://mms_att_audio_drm_dcf.gif ")}
+msgv_att_audio_drm_dcf:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_video_drm {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_video_drm:before {content: url("file://mms_att_video_drm.gif ")}
+msgv_att_video_drm:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_video_drm_dcf {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_video_drm_dcf:before {content: url("file://mms_att_video_drm_dcf.gif ")}
+msgv_att_video_drm_dcf:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_vcard_drm {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_vcard_drm:before {content: url("file://mms_att_vcard_drm.gif ")}
+msgv_att_vcard_drm:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_vcard_drm_dcf {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_vcard_drm_dcf:before {content: url("file://mms_att_vcard_drm_dcf.gif ")}
+msgv_att_vcard_drm_dcf:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_unsup_drm {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_unsup_drm:before {content: url("file://mms_att_unsup_drm.gif ")}
+msgv_att_unsup_drm:focus   {background-color: #0f47ff; color: #ffffff}
+msgv_att_unsup_drm_dcf {display:block; background-color: transparent; white-space:nowrap} 
+msgv_att_unsup_drm_dcf:before {content: url("file://mms_att_unsup_drm_dcf.gif ")}
+msgv_att_unsup_drm_dcf:focus   {background-color: #0f47ff; color: #ffffff}
+* {font-size: 8pt;background-color: white}
+msgv_root {display:block; mot-canvas-element: true} 

@@ -1,0 +1,56 @@
+#define IDM_MENU 10000
+#define IDM_ 10008
+#define IDM_ATTRIB 10016
+#define IDM_VIEW 10009
+#define IDM_EDIT 10010
+#define IDM_COPY 10011
+#define IDM_MOVE 10012
+#define IDM_NEW 10013
+#define IDM_DEL 10014
+#define IDM_RESTART 10015
+#define IDM_AT 10006
+#define IDM_FILE_FAV 10001
+#define IDM_delfav 10018
+#define IDM_RECONN 10019
+#define IDM_restartapp 10020
+#define IDM_EXIT 10017
+#define IDM_SEEM 10002
+#define IDM_DISCNUM 10003
+#define IDM_FUNC 10005
+#define IDM_OLDDLG 10004
+#define IDM_OPTIONS 10007
+#define IDM_HELP_ABOUT 10101
+IDM_MENU MENUEX
+BEGIN
+  POPUP "&File"
+  BEGIN
+    POPUP "&Command",IDM_
+    BEGIN
+      MENUITEM "F2 - &Attribute",IDM_ATTRIB
+      MENUITEM "F3 - &View",IDM_VIEW
+      MENUITEM "F4 - &Edit",IDM_EDIT
+      MENUITEM "F5 - &Copy",IDM_COPY
+      MENUITEM "F6 - &SeemFunc",IDM_MOVE
+      MENUITEM "F7 - &NewFolder",IDM_NEW
+      MENUITEM "F8 - &Delete",IDM_DEL
+      MENUITEM "F9 - &Restart phone",IDM_RESTART
+    END
+    MENUITEM "Switch to AT mode",IDM_AT
+    MENUITEM "Add favourite folder",IDM_FILE_FAV
+    MENUITEM "Delete favourite folder",IDM_delfav
+    MENUITEM "Re-Connect",IDM_RECONN
+    MENUITEM "Re-Start P2kC",IDM_restartapp
+    MENUITEM "E&xit",IDM_EXIT
+  END
+  POPUP "&Seem",IDM_SEEM
+  BEGIN
+    MENUITEM "&Discover numbers",IDM_DISCNUM
+    MENUITEM "&Functions",IDM_FUNC
+    MENUITEM "&Old dialog",IDM_OLDDLG
+  END
+  MENUITEM "&Options",IDM_OPTIONS
+  POPUP "&Help"
+  BEGIN
+    MENUITEM "&About",IDM_HELP_ABOUT
+  END
+END

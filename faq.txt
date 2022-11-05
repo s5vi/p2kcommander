@@ -1,0 +1,17 @@
+If P2kCommander dont recognize your phone please make sure:
+
+1.) At least winNT4, or Win2000, or WinXPSP1 installed on your PC.
+
+2.) Microsoft USB patches installed (not required to XP with SP2) 
+http://www.microsoft.com/downloads/details.aspx?amp;amp;displaylang=en&familyid=733dd867-56a0-4956-b7fe-e85b688b7f86&displaylang=en
+
+3.) P2kdrivers installed (attached to P2kCommander in p2kdrivers_2.8)
+
+4.) If phone connected and P2kCommander try to connect your phone, new devices must be appear
+    you must be point the p2kdrivers to pas it to your system.
+
+5.) "hidden folders" which not shown in filelist but shown on phone:
+    These are empty folders. P2kfilesystem do not show empty folder, but phone do.
+    To remove recreate the folder and delete it.(the folder not the files)
+		
+

@@ -1,0 +1,215 @@
+############################################################################
+# Traduccion para P2KCommander al español
+# Autor: Tom Maneiro <tomman@cantv.net>
+#
+# V4.9.E - traduccion v1.0 (05/03/2008)
+# (C)2008 TSDX Dubs LTDA, an division of JDSoft.inc
+############################################################################
+# P2k_Sendcommand messages (0...15)
+###########################################
+LONGITUD DE DATOS PARA COMANDO INVÁLIDA.
+NIVEL DE SEGURIDAD INADECUADO PARA COMANDO/PARAMETRO.
+COMANDO/PARAMETRO NO SOPORTADO PARA PROTOCOLO ACTUAL.
+COMANDO NO SOPORTADO EN EL MODO ACTUAL.
+CÓDIGO DE OPCIÓN NO SOPORTADO/INVÁLIDO.
+PARAMETRO NO SOPORTADO/INVÁLIDO PARA CÓDIGO DE OPCIÓN.
+ERROR CRITICO - CÓDIGO DE ERROR NO ENCONTRADO (6).
+FALLO GENÉRICO.
+ERROR CRITICO - CÓDIGO DE ERROR NO ENCONTRADO (8).
+ERROR CRITICO - CÓDIGO DE ERROR NO ENCONTRADO (9).
+NO SE PUDO UBICAR LA MEMORIA.
+ERROR DE TAREA INTERNO.
+SE ACABO EL TIEMPO DE ESPERA DE LA RESPUESTA DEL COMANDO DE PRUEBA.
+ERROR DE ANALISIS CDMA.
+LONGITUD ESPECIFICADA EN LA CABECERA DEL COMANDO MAYOR A LA RECIBIDA EN EL TRANSPORTE.
+ERROR IRRECUPERABLE; SE HA PERDIDO EL ESTADO DEL TELÉFONO. EL TELÉFONO SE ESTA APAGANDO.
+###########################################
+# GetVolInfo messages (16...23)
+###########################################
+Información del volumen -->
+Fallo al leer el nombre del volumen!
+Fallo al leer el tamaño del volumen!
+Se recibio cero como espacio libre!
+  Nombre: 
+Espacio libre: 
+ KBytes
+ archivos encontrados.
+###########################################
+# P2k_Sendcommand messages (24...32)
+###########################################
+CMD: Fallo al escribir datos!
+CMD: Se agotó el tiempo de espera!
+CMD: Paquete de respuesta inválido!
+USB: Escritura de datos exitosa.
+USB: Falló la creación del evento!
+USB: Falló el reinicio del evento!
+USB: Tiempo de espera de E/S agotado!
+USB: Falla de E/S!
+USB: Tamaño de respuesta inválido!
+###########################################
+# P2kApi.inc messages (33...38)
+###########################################
+Borrando archivo 
+Número de archivos inválido!
+ Fallo de asignación de memoria
+Tamaño de entrada FileList inválido!
+Dispositivo P2K USB encontrado, teléfono conectado!
+No se encontro dispositivo P2K, NO conectado!
+###########################################
+# P2kCommander.inc messages (39...57)
+###########################################
+P2kCommander iniciado. 
+ nombres de archivos cargados en 
+ milisegundos.
+Archivo de mensajes cargado.
+Nombre de archivo
+Tamaño
+Prop/Atrib
+Fecha/Hora
+Subiendo Izquierda a Derecha:
+Subiendo Derecha a Izquierda:
+Descargando Izquierda a Derecha:
+Descargando Derecha a Izquierda:
+P2K a P2K Izquierda a Derecha:
+P2K a P2K Derecha a Izquierda:
+Teléfono movil P2K
+Realmente deseas borrar?  -  
+Confirmar eliminación
+Realmente deseas sobreescribir archivo?  -  
+Confirmar sobreescritura
+###########################################
+#  Tooltip messages (58...72)
+###########################################
+Alt-R: Volver a leer los archivos de la unidad actual en el panel izquierdo.
+Alt-R: Volver a leer los archivos de la unidad actual en el panel derecho.
+F3: Ver el archivo actual en Lister o el Bloc de notas.
+F4: Editar el archivo actual en el Bloc de notas.
+F2: Cambiar los atributos del archivo actual
+F5: Copiar el archivo actual al directorio en el panel opuesto. 
+F6: Copiar y borrar la fuente
+F7: Crear nuevo directorio, incluso si se esta en una unidad P2K!!!
+F8/del: Elimina el archivo actual, o directorio P2K con todos los archivos que contenga!!!
+F9: Reiniciar teléfono.
+Alt-F1: Seleccionar letra de unidad para el panel izquierdo.
+Alt-F2: Seleccionar letra de unidad para el panel derecho.
+Ventana de registro, información de eventos.
+Muestra la ruta actual.
+Barra de progreso al obtener lista de archivos.
+###########################################
+#  Drive names (73...76
+###########################################
+ Disco removible
+ CD-ROM
+ Disco RAM
+ Unidad de red
+###########################################
+#  Statusbar texts (77...80)
+###########################################
+Modelo:
+Vols: 
+Archivos:
+Espacio:
+###########################################
+#  (81...89)
+###########################################
+Ilimitado
+Partición seleccionada: 
+Puede ser modificada en el diálogo de opciones.			
+Recordatorio para nuevos...
+Advertencia: "numero de archivos" NO es ilimitado!!!
+No podras ver la lista de archivos completa!!!
+Puedes cambiar esta configuración en el menu de opciones
+Despues de eso debes realizar una "Relectura".
+Mensaje de advertencia de P2kCommander:
+###########################################
+# Main dialog buttons (90...98)
+###########################################
+Releer
+Ver
+Editar
+Atributos
+Reiniciar
+Mover
+Copiar
+Nueva carpeta
+Eliminar
+###########################################
+# Some new messages (99...)
+###########################################
+Buscar archivos:
+Set de comandos TCI: estandar
+Set de comandos TCI: 3G rapido
+Set de comandos TCI: 3G seguro
+Set de comandos TCI: P2k05
+###########################################
+# p2k05 test (104...105)
+###########################################
+USB_WriteData.DevIoCtrl OK
+USB_ReadData.DevIoCtrl OK
+###########################################
+# Tooltip in Options dialog (106...114)
+###########################################
+E398, V3, Vxxx
+RIZR Z3, E1000, V975
+A1000, V980
+V3xx, V6MAXX, E2
+Experimental, no puedo saberlo (sin ese teléfono).
+Un iconito en tu bandeja para averiguar el estado del teléfono.
+Por favor activalo (al menos una vez a la semana).
+Usuarios con experiencia pueden desactivarlo.
+Grabar información de tráfico USB detallado en el registro.
+###########################################
+# Extras (115...122)
+###########################################
+SEEMs del telefono P2k
+/a P2k - sistema
+/b P2k - Tarj. TransFlash
+/c P2k - usuario
+/e P2k - usuario
+/g P2k - extra
+Ranura vacia
+/x seleccionar manualmente
+###########################################
+# Extras (123...131)
+###########################################
+Subir SEEM: fallido.
+Comando P2k fallido.
+Descubrir numeros de SEEMs.
+Descripción del sEEM
+SEEM
+Reg.
+Desp
+Bit
+Descripción
+###########################################
+# Extras (132...)
+###########################################
+Buscar función del SEEM por palabra clave
+Escribir bit del SEEM al telefono
+Cerrar este diálogo
+###########################################
+# About dialog (...)
+###########################################
+###########################################
+# Attrib dialog (...)
+###########################################
+###########################################
+# Wait dialog (...)
+###########################################
+###########################################
+# Copy dialog (...)
+###########################################
+###########################################
+# Create dir dialog (...)
+###########################################
+###########################################
+# Batch dialog (...)
+###########################################
+###########################################
+# Menus (...)
+###########################################
+
+
+
+
+

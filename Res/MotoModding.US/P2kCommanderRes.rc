@@ -1,0 +1,92 @@
+#define appicon							4000
+#define view1							4100
+#define attr1							4200
+#define cpy1							4300
+#define mv1								4400
+#define new1							4500
+#define del1							4600
+#define rer1							4700
+#define view2							4101
+#define attr2							4201
+#define cpy2							4301
+#define mv2								4401
+#define new2							4501
+#define del2							4601
+#define view3							4102
+#define attr3							4202
+#define cpy3							4302
+#define mv3								4402
+#define new3							4502
+#define del3							4602
+#define view4							4103
+#define attr4							4203
+#define cpy4							4303
+#define mv4								4403
+#define new4							4503
+#define del4							4603
+#define rer2							4701
+#define rer3							4702
+#define rer4							4703
+#define mm_dialog_wm					503
+#define about							501
+#define edit1							4800
+#define rstart1							4900
+#define edit2							4801
+#define rstart2							4901
+#define edit3							4802
+#define rstart3							4902
+#define edit4							4803
+#define rstart4							4903
+#define star							4001
+#define updown							5000
+#define lv								502
+#define chk00							4950
+#define chk0							4951
+#define chk								4952
+#define chkY							4953
+appicon					ICON      DISCARDABLE "Res/MMIcon03.ico"
+view1					ICON      DISCARDABLE "Res/up_view.ico"
+attr1					ICON      DISCARDABLE "Res/up_attributes.ico"
+cpy1					ICON      DISCARDABLE "Res/up_copy.ico"
+mv1						ICON      DISCARDABLE "Res/up_move.ico"
+new1					ICON      DISCARDABLE "Res/up_newfolder.ico"
+del1					ICON      DISCARDABLE "Res/up_delete.ico"
+rer1					ICON      DISCARDABLE "Res/up_reread.ico"
+view2					ICON      DISCARDABLE "Res/hover_view.ico"
+attr2					ICON      DISCARDABLE "Res/hover_attributes.ico"
+cpy2					ICON      DISCARDABLE "Res/hover_copy.ico"
+mv2						ICON      DISCARDABLE "Res/hover_move.ico"
+new2					ICON      DISCARDABLE "Res/hover_newfolder.ico"
+del2					ICON      DISCARDABLE "Res/hover_delete.ico"
+view3					ICON      DISCARDABLE "Res/down_view.ico"
+attr3					ICON      DISCARDABLE "Res/down_attributes.ico"
+cpy3					ICON      DISCARDABLE "Res/down_copy.ico"
+mv3						ICON      DISCARDABLE "Res/down_move.ico"
+new3					ICON      DISCARDABLE "Res/down_newfolder.ico"
+del3					ICON      DISCARDABLE "Res/down_delete.ico"
+view4					ICON      DISCARDABLE "Res/disabled_view.ico"
+attr4					ICON      DISCARDABLE "Res/disabled_attributes.ico"
+cpy4					ICON      DISCARDABLE "Res/disabled_copy.ico"
+mv4						ICON      DISCARDABLE "Res/disabled_move.ico"
+new4					ICON      DISCARDABLE "Res/disabled_newfolder.ico"
+del4					ICON      DISCARDABLE "Res/disabled_delete.ico"
+rer2					ICON      DISCARDABLE "Res/hover_reread.ico"
+rer3					ICON      DISCARDABLE "Res/down_reread.ico"
+rer4					ICON      DISCARDABLE "Res/disabled_reread.ico"
+mm_dialog_wm			IMAGE     DISCARDABLE "Res/mmus1.jpg"
+about					IMAGE     DISCARDABLE "Res/5vi.jpg"
+edit1					ICON      DISCARDABLE "Res/up_edit.ico"
+rstart1					ICON      DISCARDABLE "Res/up_restart.ico"
+edit2					ICON      DISCARDABLE "Res/hover_edit.ico"
+rstart2					ICON      DISCARDABLE "Res/hover_restart.ico"
+edit3					ICON      DISCARDABLE "Res/down_edit.ico"
+rstart3					ICON      DISCARDABLE "Res/down_restart.ico"
+edit4					ICON      DISCARDABLE "Res/disabled_edit.ico"
+rstart4					ICON      DISCARDABLE "Res/disabled_restart.ico"
+star					ICON      DISCARDABLE "Res/s5vi.ico"
+updown					BITMAP    DISCARDABLE "Res/updown.bmp"
+lv						IMAGE     DISCARDABLE "Res/mmus2.JPG"
+chk00					ICON      DISCARDABLE "Res/checkmark00.ico"
+chk0					ICON      DISCARDABLE "Res/checkmark0.ico"
+chk						ICON      DISCARDABLE "Res/checkmark.ico"
+chkY					ICON      DISCARDABLE "Res/checkmarkY.ico"

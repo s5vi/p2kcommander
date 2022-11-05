@@ -1,0 +1,6 @@
+md /a/mobile/skins/Exampleskin
+cp Exampleskin/Exampleskin.ski /a/mobile/skins/Exampleskin/Exampleskin.ski 
+cp Exampleskin/Exampleskin.dat /a/mobile/skins/Exampleskin/Exampleskin.dat
+cp Exampleskin/Exampleskin1.dat /a/mobile/skins/Exampleskin/Exampleskin1.dat 
+cp Exampleskin/Exampleskin2.dat /a/mobile/skins/Exampleskin/Exampleskin2.dat
+

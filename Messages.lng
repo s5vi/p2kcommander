@@ -1,0 +1,216 @@
+############################################################################
+# This is file containing all English messages.
+# You can translate them.
+# These lines starting with "#" are ignored.
+# You can put anywhere your remarks with starting "#"
+# Its possibble to leave original line with "#" and insert your new line.
+# Please pay attention to spaces before and after strings. Eg: "  Name: "  
+############################################################################
+# P2k_Sendcommand messages (0...15)
+###########################################
+INVALID DATA LENGTH FOR COMMAND.
+INADEQUATE SECURITY LEVEL FOR COMMAND/PARAMETER.
+COMMAND/PARAMETER NOT SUPPORTED FOR CURRENT PROTOCOL.
+COMMAND NOT SUPPORTED FOR CURRENT MODE.
+UNSUPPORTED/INVALID OPCODE.
+UNSUPPORTED/INVALID PARAMETER FOR OPCODE.
+CRITICAL ERROR - ERROR CODE NOT FOUND (6).
+GENERIC FAILURE.
+CRITICAL ERROR - ERROR CODE NOT FOUND (8).
+CRITICAL ERROR - ERROR CODE NOT FOUND (9).
+COULDN""T ALLOCATE MEMORY.
+INTERNAL TASK ERROR.
+TEST COMMAND TASK TIMED OUT WAITING FOR RESPONSE.
+CDMA PARSE ERROR.
+LENGTH SPECIFIED IN COMMAND HEADER GREATER THAN RECEIVED BY TRANSPORT.
+IRRECOVERABLE ERROR; PHONE STATE HAS BEEN LOST. PHONE BEING POWERED DOWN.
+###########################################
+# GetVolInfo messages (16...23)
+###########################################
+Volume information -->
+Volume name fail!
+Volume size fail!
+Zero free space recv'd!
+Volume Names: 
+Free space: 
+ KBytes
+ files found.
+###########################################
+# P2k_Sendcommand messages (24...32)
+###########################################
+CMD: Data write fail!
+CMD: Answer wait timeout!
+CMD: Answer packet invalid!
+USB: Write data ok.
+USB: Event create failed!
+USB: Event reset failed!
+USB: IO Time-out!
+USB: IO Failed!
+USB: Answer size invalid!
+###########################################
+# P2kApi.inc messages (33...38)
+###########################################
+Deleting file 
+Invalid files count!
+ Memory allocation fail
+FileList entry size invalid!
+Usb p2k device found, phone connected !
+No modem/p2k/usblan device found, NOT connected !
+###########################################
+# P2kCommander.inc messages (39...57)
+###########################################
+P2kCommander launched. 
+ filenames loaded in 
+ milliseconds.
+Message file loaded.
+Filename
+Size
+Ownr/Attr
+Date/Time
+Uploading Left to Right:
+Uploading Right to Left:
+Downloading Left to Right:
+Downloading Right to Left:
+p2k to p2k Left to Right:
+p2k to p2k Right to Left:
+P2k phone files
+Are You sure to delete ?  -  
+Delete confirmation
+Are You overwrite file ?  -  
+Overwrite confirmation
+###########################################
+#  Tooltip messages (58...72)
+###########################################
+Alt-R: Re-read the files from actual drive to the left panel.
+Alt-R: Re-read the files from actual drive to the right panel.
+F3: View the actual file with Lister or Notepad.
+F4: Edit the actual file with Notepad.
+F2: Change attributes of actual file
+F5: Copy the actual file to the directory on opposite panel. 
+F6: Explore and manage seem bit functions
+F7: Make new directory, even if on P2K drive!!!
+F8/del: Deletes the actual file, or P2K directory with files in it!!
+F9: Restart phone.
+Alt-F1: Select drive letter for the left panel.
+Alt-F2: Select drive letter for the right panel.
+Log window, informations on events.
+Shows the actual path.
+Completion bar for getting filelist.
+###########################################
+#  Drive names (73...76
+###########################################
+ Removable disk
+ CD-ROM
+ Ramdisk
+ Network drive
+###########################################
+#  Statusbar texts (77...80)
+###########################################
+Model:
+Vols: 
+Files:
+Space:
+###########################################
+#  (81...89)
+###########################################
+Unlimited
+Selected partition is: 
+This can be modified in options dialog.			
+n00b reminder...
+Warning setting "number of files" is NOT unlimited !!!
+You will not see the whole filelist !!!
+You can change this setting in options menu.
+After that you must perform a "Re-read".
+P2kCommander warning message:
+###########################################
+# Main dialog buttons (90...98)
+###########################################
+Re-Read
+View
+Edit
+Attributes
+Restart
+SeemFunc
+Copy
+NewFolder
+Delete
+###########################################
+# Some new messages (99...103)
+###########################################
+Search files:
+Tci command set: standard
+Tci command set: 3G fast
+Tci command set: 3G safe
+Tci command set: P2k05
+###########################################
+# p2k05 test (104...105)
+###########################################
+USB_WriteData.DevIoCtrl ok
+USB_ReadData.DevIoCtrl ok
+###########################################
+# Tooltip in Options dialog (106...114)
+###########################################
+E398, V3, Vxxx
+RIZR Z3, E1000, V975
+A1000, V980
+V3xx, V6MAXX, E2
+Experimental, I cant find out (without that phone).
+A little icon on your tray to trace phone status.
+Please check it on (at least once a week).
+Experienced users can uncheck it.
+Push detailed USB traffic info to the log.
+###########################################
+# Extras (115...122)
+###########################################
+P2k phone seems
+/a P2k Phone system
+/b P2k Phone tflash
+/c P2k Phone user
+/e P2k Phone user
+/g P2k Phone extra
+Empty slot
+/x manually selected
+###########################################
+# Extras (123...131)
+###########################################
+Upload seem: failed.
+P2k Cmd failed.
+Discover seem numbers.
+Seem description
+Seem
+Rec.
+Offs
+Bit
+Description
+###########################################
+# Extras (132...)
+###########################################
+Search seem function by your keyword.
+Write seem bit to the phone.
+Close this dialog.
+###########################################
+# About dialog (...)
+###########################################
+###########################################
+# Attrib dialog (...)
+###########################################
+###########################################
+# Wait dialog (...)
+###########################################
+###########################################
+# Copy dialog (...)
+###########################################
+###########################################
+# Create dir dialog (...)
+###########################################
+###########################################
+# Batch dialog (...)
+###########################################
+###########################################
+# Menus (...)
+###########################################
+
+
+
+
+

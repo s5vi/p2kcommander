@@ -1,0 +1,93 @@
+0032;0001;-1;1;Thanks to Poetic Folly from "ModMyMoto"
+0032;0001;-1;1;Phone configuration;Core Feature Configuration Table;Off
+0032;0001;00;2;Settings > Initial Setup > Auto Redial;ON;Off;
+0032;0001;02;1;LOCKS THESE FEATURES: Call barring, Call transfer, Info Services, do not read VM number from SIM, Voicemail ^@ text messages, Multi-Line Support, My Network List, Manual Network Search;ON;Off;(Set to 0 to UNBLOCK these features)
+0032;0001;03;1;Message > Quick Notes;ON;Off;
+0032;0001;03;2;Message > Drafts;ON;Off;
+0032;0001;03;3;Message > Outbox;ON;Off;
+0032;0001;03;5;Message > Inbox;ON;Off;
+0032;0001;04;1;Call Restriction Support;ON;Off;
+0032;0001;08;5;Recent Calls > Call Cost;ON;Off;
+0032;0001;09;1;Settings > Security > Talk Secure;ON;Off;
+0032;0001;0A;7;Settings > Initial Setup > Backlight > Continuous;ON;Off;
+0032;0001;14;5;Settings > Network > New Network;ON;Off;
+0032;0001;16;6;Settings > Ring Styles > Details > Roam Calls option, special ring tone for calls received while roaming;ON;Off;
+0032;0001;1B;6;Settings > Initial Setup > Auto PIN Dial;ON;Off;
+0032;0001;1D;6;Settings > Initial Setup > Battery Save;ON;Off;
+0032;0001;1E;7;Settings > In-Call Setup > Talk and Fax > All Calls;ON;Off;
+0032;0001;1F;7;Fax Calls;ON;Off;
+0032;0001;22;6;Settings > Call Divert/Forward > Fax;ON;Off;
+0032;0001;2F;2;Webaccess > Web Sessions > Edit > IP1;ON;Off;
+0032;0001;2F;3;Webaccess > Web Sessions > Edit > IP2;ON;Off;
+0032;0001;2F;4;Webaccess > Web Sessions > Edit > CSD1;ON;Off;
+0032;0001;2F;5;Webaccess > Web Sessions > Edit > CSD2;ON;Off;
+0032;0001;41;5;GPRS Active Icon;ON;Off;
+0032;0001;43;0;Java App Loader;ON;Off;
+0032;0001;43;4;Network > Network Setup > Band;ON;Off;
+0032;0001;48;4;Settings > Call Divert/Forward > Voice Calls > Conditional;ON;Off;
+0032;0001;48;5;Settings > Call Divert/Forward > Voice Calls > Busy;ON;Off;
+0032;0001;4F;6;Messaging > E-Mail Msgs;ON;Off;
+0032;0001;50;3;"""Emergency Only"" display when network available but no roaming agreement";ON;Off;
+0032;0001;50;4;"""No Service"" display when you have no service";ON;Off;
+0032;0001;51;3;Alpha Tag Display;ON;Off;(1 from SIM, 0 from phone)
+0032;0001;51;7;WCDMA 2100 shows in Network > Network Setup > Band;ON;Off
+0032;0001;57;6;900/1800 shows in Network > Network Setup > Band;ON;Off
+0032;0001;58;1;Shutdown Sound;ON;Off
+0032;0001;58;3;Shutdown Sound;ON;Off
+0032;0001;58;4;Shutdown Sound;ON;Off
+0032;0001;58;5;Shutdown Sound;ON;Off
+0032;0001;5B;4;Address Book > Contact > Video Number;ON;Off
+0032;0001;60;0;Alarm Clock;ON;Off
+0032;0001;60;6;Speed Dial #2;ON;Off
+0032;0001;62;6;850/1900 shows in Network > Network Setup > Band;ON;Off
+0032;0001;62;7;1800 shows in Network > Network Setup > Band;ON;Off
+0032;0001;66;5;VM message counter in Messages > Voicemail;Off;ON
+0032;0001;6B;2;Priority settings for Java apps;ON;Off
+0032;0001;6B;3;Java Switch to Debug;ON;Off
+0032;0001;72;1;parse e-mail gateway to show actual sender's e-mail for e-mail received as text;ON;Off
+0032;0001;73;0;Text Message Reply > Options > Change Recipients;ON;Off
+0032;0001;74;4;Settings > Audio > Ring Lights;ON;Off;
+0032;0001;75;1;IM;ON;Off;
+0032;0001;78;3;Camera > Options > Light On;ON;Off;
+0032;0001;87;1;Display status of camera LED when taking a picture;ON;Off;
+0032;0001;89;6;Prepend Re: and Fw: to subject on text message replies and forwards;ON;Off;
+0032;0001;8B;2;allow speakerphone with flip closed;ON;Off;(microphone will not work)
+0032;0001;8D;4;Wakeup Bootscreen;ON;Off;
+0032;0001;8D;6;Type of Wakeup Bootscreen;ON;Off;(1 motorola, 0 provider)
+0032;0001;90;6;Change to Loud Ring Style when charging or connected by USB;Off;ON;
+0032;0001;9E;0;EMS support in text messages;Off;ON;
+0032;0001;9F;3;IM listed in Message menu;ON;Off;(IM must be turned on, see offset 75, bit 1)
+0032;0001;B1;0;Messaging > Create Message > Prompt for Message Type (ie. SMS/MMS, Voice, E-Mail);ON;Off;
+0032;0001;B1;3;BLOCK ADVANCED MENUS: Settings > Network;ON;Off;(set to 0 to UNBLOCK advanced Network Menus)
+0032;0001;B2;0;Settings > Audio > Event Lights;ON;Off;
+0032;0001;B4;5;Settings > Phone Status > Software Update > Check Server;ON;Off;
+0032;0001;C9;5;"""Searching..."" display when phone is searching for network";ON;Off;
+0032;0001;CB;5;"""generation"" indicator, 3G/2.5G/etc (this may be the roam status indicator... it's in that spot)";Off;ON;
+0032;0001;CE;6;Settings > Call Forward > Push to Call Forward Number;;;
+0032;0001;CF;3;"show ""3G"" instead of GPRS indicator when in 3G area";ON;Off;
+0032;0001;D0;0;HSDPA Icon (shows only when in internal data session);ON;Off;
+0032;0001;D0;1;show HSDPA data transfer icon;ON;Off;
+0032;0001;D0;2;HSDPA indicator and transfer icons for external (tethered) data sessions;ON;Off;
+0032;0001;D1;5;force list view when more than 6 items in a submenu;ON;Off;(1 icons, 0 list)
+00A2;0001;-1;1;AMR settings
+00A2;0001;00;5;disable AMR Half Rate;ON;Off;(bit 6 must be off)
+00A2;0001;00;6;enable AMR Half Rate;ON;Off;(bit 5 must be off)
+00A2;0001;01;5;disable AMR Full Rate;ON;Off;(bit 6 must be off)
+00A2;0001;01;6;enable AMR Full Rate;ON;Off;(bit 5 must be off)
+004A;0001;-1;1;Phone configuration;DISPLAY and SOUND OPTIONS;Off
+004A;0001;22;0;(01 for custom startup sound stored in /a/mobile/audio/Start~up.mp3, 00 for no custom startup sound);ON;Off;may need to adjust 0032_0001, offset 24, bit 3
+004A;0001;23;0;(01 for custom startup in stored seems 0206/0208, 00 for no custom startup);ON;Off;
+004A;0001;24;0;(01 for custom shutdown sound stored in /a/mobile/audio/Power~down.mp3, 00 for no custom shutdown sound);ON;Off;
+004A;0001;27;0;(00 for custom outer image from path saved in seems 0061/0062, 01 for custom outer text stored in seems 0061/0062, 02 for Motorola icon);;;
+004A;0001;4D;0;(00 SIM card NOT required for phone access, 01 SIM card required for phone access);;;
+004A;0001;80;0;(01 for number display with no dashes, 00 for number display with dashes- 1-404-555-1212);;
+004A;0001;148;0;(01 for MTWTFSS week format in calendar, 00 for SMTWTFS week format in calendar);MTWTFSS;SMTWTFS
+004A;0001;1A1;0;(01 for no WMV support, FF for WMV support) see also offset 0310;;
+004A;0001;1BE;0;00 for no deletion of inbox, outbox, drafts messages on sim swap);;
+004A;0001;1D1;0;(01 for .3gp video record, 03 for .mp4 video record);;
+004A;0001;1ED;0;swap to ring style when press/hold # key;;
+004A;0001;207;0;(01 charge via computer USB connection, 00 do not charge via computer USB connection);;
+004A;0001;310;0;(01 for no WMV support, 00 for WMV support) see also offset 01A1;;
+0126;0001;-1;1;Phone configuration;RECENT CALLS and MY TEL. NUMBERS;Off
+0126;0001;03;5;Items Displayed in Recent Calls > Dialed Calls;;
+0126;0001;03;6;Items Displayed in Recent Calls > Received Calls;;
